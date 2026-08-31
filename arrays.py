@@ -6,3 +6,5 @@ for i in my_array:
     if i < min_val:
         min_val = i
 print("The lowest value in the array is:", min_val)
+
+#Time Complexity: O(n) - The algorithm iterates through the entire array once, making it linear in time complexity. 
