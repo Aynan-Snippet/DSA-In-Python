@@ -6,3 +6,7 @@ for i in range(n-1):
         if my_array[j] > my_array[j+1]:
             my_array[j], my_array[j+1] = my_array[j+1], my_array[j]
 print("The sorted array is:", my_array)
+
+#The time complexity of the bubble sort algorithm is O(n^2) -
+# The algorithm uses two nested loops to iterate through the array, 
+# making it quadratic in time complexity.
